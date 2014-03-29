@@ -1,0 +1,81 @@
+/*@*/
+.p_com_name {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px 6px 6px 6px;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1000;
+    width: auto;
+    max-width: 350px;
+    _width: 250px;
+}
+
+.p_com_name li a {
+    color: #666;
+    line-height: 20px;
+    padding: 5px 10px;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+    display: block;
+    white-space: nowrap;
+}
+
+.p_com_name .popup_text {
+    color: #666666;
+    line-height: 20px;
+    padding: 1px 10px;
+}
+
+.p_com_name ul {
+    border-top: 1px dashed #CCC;
+}
+
+.p_com_name li a:hover {
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    color: #333333;
+    text-decoration: none;
+}
+
+.p_com_name li.hover a {
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    color: #333333;
+    text-decoration: none;
+}
+
+.p_com_name li.hover a:hover {
+    color: #333333;
+}
+
+.user_name_down img {
+    border: 1px solid #CCCCCC;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: -6px;
+    width: 20px;
+}
+
+/*@组件*/
+.com_holder {
+    border: 0 none;
+    display: none;
+    opacity: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+    z-index: -1000;
+    word-wrap: break-word;
+    line-height: 18px;
+    outline: none;
+}
+
+.com_holder span {
+    word-wrap: break-word;
+}

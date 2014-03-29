@@ -1,0 +1,2029 @@
+@charset "utf-8";
+
+/*-- 饭团频道 简写为 .fan
+-------------------------------------*/
+.fan {
+}
+
+.fan_nowrap_elli {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fan_focus {
+    padding-top: 5px;
+    border-bottom: 1px solid #e7e7e7;
+    overflow: hidden;
+    width: 946px;
+    margin: 0 auto 20px;
+}
+
+.fan_focus ul {
+    overflow: hidden;
+    width: 2000px;
+    height: 288px;
+}
+
+.fan_focus li {
+    float: left;
+    width: 946px;
+}
+
+.fan_focus li a:hover .info {
+    display: block;
+}
+
+.fan_focus .info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    overflow: hidden;
+    background-color: #690;
+    background: rgba(102, 153, 0, 0.9);
+    display: none;
+}
+
+.fan_focus .title {
+    padding-bottom: 5px;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 24px;
+}
+
+.fan_focus .text2 {
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    display: block;
+}
+
+.fan_focus .w220 .text2 {
+    height: 72px;
+    line-height: 24px;
+}
+
+.fan_focus .w465 {
+    position: relative;
+    float: left;
+    width: 465px;
+    height: 268px;
+    margin: 20px 0 0 0;
+    overflow: hidden
+}
+
+.fan_focus .w465 .info {
+    width: 445px;
+    height: 77px;
+    padding: 3px 10px 10px;
+}
+
+.fan_focus .w220 {
+    position: relative;
+    margin: 20px 0 0 20px;
+    float: left;
+    width: 220px;
+    height: 124px;
+    overflow: hidden
+}
+
+.fan_focus .w220 .info {
+    width: 200px;
+    height: 111px;
+    padding: 3px 10px 10px;
+}
+
+.fan_focus_point {
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    height: 8px;
+    overflow: hidden;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: white;
+}
+
+.fan_focus_point a {
+    width: 40px;
+    height: 8px;
+    overflow: hidden;
+    display: inline-block;
+    text-indent: -999px;
+    background-color: #e6e6e6;
+    margin-right: 2px;
+}
+
+.fan_focus_point a:hover,
+.fan_focus_point .cur {
+    background-color: #99cc66;
+}
+
+/*-- 我的饭团 --*/
+.main {
+    width: 630px;
+    padding-left: 20px;
+}
+
+.fan_wo {
+    width: 630px;
+    margin-bottom: 20px;
+}
+
+.fan_wo_tab {
+    position: relative;
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 2px #d6e6d6 solid;
+    background-color: #f6f9fa;
+}
+
+.fan_wo_tab a {
+    position: relative;
+    float: left;
+    margin: 0 10px;
+    color: #666;
+    border-bottom: 2px solid #d6e6d6;
+    _display: inline;
+}
+
+.fan_wo_tab a:hover {
+    border-bottom: 2px solid #690;
+}
+
+.fan_wo_tab .cur {
+    padding: 0 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #690;
+    border-bottom: 2px solid #690;
+    cursor: default;
+}
+
+.fan_wo_tab .arrow {
+    display: none;
+}
+
+.fan_wo_tab .cur .arrow {
+    position: absolute;
+    left: 50%;
+    bottom: -14px;
+    margin-left: -6px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #690 #fff #fff #fff;
+    font-family: arial;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.fan_wo_list {
+    height: 312px;
+    overflow: hidden;
+    position: relative;
+}
+
+.fan_wo_list ul {
+    width: 700px;
+}
+
+.fan_wo_list li {
+    float: left;
+    margin: 20px 20px 0 0;
+}
+
+.fan_wo_list li.more a {
+    display: block;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    line-height: 110px;
+    font-size: 14px;
+    background: #f2f2f2;
+}
+
+.fan_wo_list li.more a:hover {
+    background: #669900;
+    color: white;
+    text-decoration: none;
+}
+
+.fan_wo_list .pic {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    display: block;
+}
+
+.fan_wo_list .pic img {
+    display: block;
+    vertical-align: top;
+}
+
+.fan_wo_list .name {
+    height: 26px;
+    line-height: 26px;
+    width: 110px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+}
+
+.no_result {
+    width: 540px;
+    margin: 100px auto;
+}
+
+.ico_exp01 {
+    background: url("http://s.yytcdn.com/images/common/core/exp/ico_exp01.png") no-repeat;
+    width: 150px;
+    height: 158px;
+    display: block;
+    float: left;
+    text-indent: -999em;
+    overflow: hidden;
+}
+
+.no_result_right {
+    margin-left: 190px;
+}
+
+.no_result_sorry {
+    padding: 30px 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*列表*/
+.fan_content {
+    width: 630px;
+    overflow: hidden;
+}
+
+.topics_list_box {
+    position: relative;
+    min-height: 200px;
+    _height: 200px;
+}
+
+.fan_content .group_tab {
+    margin-left: -10px;
+}
+
+.fan_list {
+    margin-top: 10px;
+}
+
+.fan_list .list {
+    position: relative;
+    padding-left: 70px;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.fan_list .avatar {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.fan_list_con {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+}
+
+.fan_list .name {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.fan_list .name .fan_name {
+    padding: 0 10px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    background-color: #99cc66;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.fan_list .arrow {
+    position: absolute;
+    left: -8px;
+    top: 6px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #fff #99cc66 #fff #fff;
+    font-family: arial;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.fan_list .name a:hover .fan_name {
+    background-color: #690;
+}
+
+.fan_list .name a:hover .arrow {
+    border-color: #fff #690 #fff #fff;
+}
+
+.fan_list .text {
+    padding-top: 5px;
+    color: #666;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.fan_list .pic {
+    overflow: hidden;
+}
+
+.fan_list .pic a {
+    float: left;
+    margin: 10px 10px 0 0;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    *display: inline;
+    *font-size: 88px;
+}
+
+.fan_list .pic img {
+    vertical-align: middle;
+    max-width: 120px;
+    max-height: 120px;
+    _width: 120px;
+    _height: 120px;
+}
+
+.fan_list .time {
+    padding: 10px 0;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    clear: both;
+}
+
+.fan_list .time a {
+    color: #999;
+}
+
+.fan_list .time a:hover {
+    color: #690;
+}
+
+/*-- 右列
+-------------------------------------------*/
+.sd_fan_tips {
+    width: 255px;
+    height: 150px;
+    line-height: 31px;
+    font-size: 14px;
+    color: #666;
+    padding: 14px 10px 10px 28px;
+    overflow: hidden;
+    background: url("/v2/images/app/fan/fan_tips.jpg") no-repeat;
+}
+
+.sd_fan_tips .constantia {
+    font-size: 28px;
+}
+
+/*很好玩的饭团*/
+.sd_fan_fun {
+    height: 340px;
+    overflow: hidden;
+}
+
+.sd_fan_list {
+}
+
+.sd_fan_list li {
+    margin-top: 16px;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.sd_fan_list .content {
+    width: 240px;
+    overflow: hidden;
+}
+
+.sd_fan_list .name {
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/*好多好看的MV*/
+.sd_fan_mv {
+    padding-bottom: 20px;
+    overflow: hidden;
+    _zoom: 1
+}
+
+.sd_fan_mv .mv_pic {
+    margin: 20px 0 0 20px;
+    _display: inline;
+}
+
+.sd_fan_mv .mv_pic img {
+    vertical-align: top;
+}
+
+/*--爬行榜栏目
+-------------------------------------------------------*/
+
+/*饭团左列导航*/
+.fan_sidebar {
+    width: 200px;
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+}
+
+.fan_sidebar li {
+    overflow: hidden;
+    border-bottom: 1px solid #f1f1f1;
+    _zoom: 1;
+}
+
+.fan_sidebar li a {
+    margin: 3px 0;
+    padding-left: 12px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    display: block;
+}
+
+.fan_sidebar li a:hover {
+    color: #690;
+    background-color: #f0fbe4;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.fan_sidebar .cur {
+    color: #690;
+    font-weight: 700;
+}
+
+/*右列 爬行榜*/
+.fan_masstop {
+    margin-top: 20px;
+}
+
+.fan_masstop .list {
+    margin-bottom: 30px;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.fan_masstop_star {
+    width: 260px;
+    margin: 0 20px;
+}
+
+.fan_masstop_star .avatar {
+    margin-right: 10px;
+}
+
+.fan_masstop_star .cont {
+
+}
+
+.fan_masstop_star .name {
+    width: 130px;
+    height: 20px;
+    margin-bottom: 3px;
+    line-height: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}
+
+.fan_masstop_star .ico_but_group {
+    margin-top: 7px;
+}
+
+.fan_masstop_name {
+    width: 370px;
+    overflow: hidden;
+}
+
+.fan_masstop_name .avatar {
+    margin-right: 15px;
+}
+
+.fan_masstop_name .info {
+    padding-top: 6px;
+    clear: both;
+}
+
+.fan_masstop_name .info a {
+    padding-left: 5px;
+    width: 365px;
+    height: 26px;
+    line-height: 26px;
+    color: #666;
+    margin-top: 1px;
+    background-color: #f6f6f6;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.fan_masstop_name .info a:hover {
+    color: #690;
+    background-color: #f0fbe4;
+}
+
+.fan_masstop_name a .point {
+    width: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-family: arial;
+    color: #ccc;
+    overflow: hidden;
+}
+
+.fan_masstop_name a:hover .point {
+    color: #690;
+}
+
+.fan_top_info {
+    border: 1px solid #f1f1f1;
+    margin-top: 28px;
+    padding-bottom: 20px;
+}
+
+.fan_top_info h3 {
+    background: #99cc66;
+    font-size: 14px;
+    padding: 0 10px;
+    color: white;
+    height: 36px;
+    line-height: 36px;
+}
+
+.fan_top_info p {
+    padding: 15px 10px 0;
+    line-height: 1.8;
+}
+
+/*--单个饭团页
+-------------------------------------------------------*/
+.w_auto {
+    min-height: 600px;
+    padding-top: 170px;
+    overflow: hidden;
+    background: #017ab1 url("/v2/images/app/fan/fan_bg01.jpg") no-repeat center 41px;
+}
+
+.w_auto .wrap {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    overflow: visible;
+}
+
+.footer {
+    margin-top: 0;
+}
+
+.w_auto .main {
+    width: 680px;
+}
+
+.w_auto .side {
+    width: 260px;
+}
+
+.fan_nav {
+    position: relative;
+    height: 56px;
+}
+
+.fan_nav .con {
+    width: 1000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.fan_nav .bg {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 1000px;
+    height: 56px;
+    display: block;
+    background-color: #fff;
+    filter: alpha(opacity=80);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.fan_nav .group_tab {
+    padding: 15px 0 0 5px;
+}
+
+.fan_nav .group_tab a {
+    font-size: 16px;
+}
+
+.fan_publish {
+    height: 36px;
+    margin: 0 20px 0 0;
+    position: absolute;
+    top: -45px;
+    right: 0;
+    z-index: 20;
+}
+
+.fan_publish_down {
+    position: absolute;
+    left: 0;
+    top: 36px;
+    z-index: 11;
+    width: 139px;
+    border: 1px solid #ffe0be;
+    background-color: #fffdf8;
+    border-radius: 5px;
+}
+
+.fan_publish_down a {
+    width: 134px;
+    padding: 6px 0;
+    color: #666;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px solid #f3eee0;
+}
+
+.fan_publish_down a:hover {
+    color: #690;
+}
+
+/*饭团公告*/
+.fan_ann {
+    margin: 15px 0 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.fan_ann .edit {
+    margin: 4px 0 0 20px;
+    display: inline-block;
+}
+
+.fan_ann .com_area {
+    width: 98.2%;
+    margin-bottom: 10px;
+}
+
+.fan_ann .info {
+    padding-top: 10px;
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+    clear: both;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+/*饭团最新MV*/
+.fan_newmv {
+    width: 680px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.fan_title {
+    margin-bottom: 10px;
+    height: 32px;
+    line-height: 32px;
+    color: #666;
+    overflow: hidden;
+}
+
+.fan_newmv_list {
+    width: 700px;
+}
+
+.fan_newmv_list .list {
+    float: left;
+    /*width: 160px;*/
+    height: 160px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.mv_pic .play_pic6:hover .ico_play {
+    margin-top: -25px;
+}
+
+.fan_newmv_list .title {
+    padding-top: 5px;
+}
+
+.fan_newmv_list .title,
+.fan_newmv_list .name {
+    width: 160px;
+    height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+/*饭团最新帖子*/
+.fan_posts {
+}
+
+.fan_posts_list .list {
+    height: 50px;
+    padding: 15px 10px;
+    overflow: hidden;
+}
+
+.fan_posts_list .info {
+    width: 480px;
+    margin-left: 20px;
+}
+
+.fan_posts_list .title {
+    position: relative;
+}
+
+.fan_posts_list .title a {
+    display: inline-block;
+    float: left;
+    line-height: 1.2;
+    padding-bottom: 8px;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 360px;
+    _width: 360px;
+}
+
+.fan_posts_list .num {
+    width: 76px;
+    padding-top: 3px;
+    line-height: 22px;
+    text-align: right;
+}
+
+.bg_cor {
+    background-color: #f7f8f6;
+}
+
+.fan_posts_list .fan_checkbox {
+    margin: 19px 10px 0 0;
+    *margin-top: 15px;
+}
+
+/*--单个饭团  右列
+--------------------------------*/
+.sd_title {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/*饭团艺人*/
+.sd_fan_user {
+    padding: 10px;
+    width: 238px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    right: 0;
+    top: -70px;
+    z-index: 2;
+}
+
+.sd_fan_user .avatar {
+    margin-right: 10px;
+    position: relative;
+}
+
+.sd_fan_user_bg {
+    position: absolute;
+    right: -5px;
+    top: 12px;
+    width: 7px;
+    height: 70px;
+    overflow: hidden;
+    background: url("/v2/images/app/fan/ico_fan.png") no-repeat right 0;
+    _background: none;
+}
+
+.sd_fan_user .area {
+    width: 238px;
+    clear: both;
+    padding-top: 13px;
+}
+
+/*饭团团长*/
+.pd_t70 {
+    padding-top: 70px;
+}
+
+.sd_follow {
+
+}
+
+.sd_follow .avatar {
+    margin-right: 10px;
+}
+
+.sd_follow .name {
+    padding-bottom: 7px;
+}
+
+.sd_follow li {
+    padding-top: 15px;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+/*饭团重要链接*/
+.sd_link {
+}
+
+.sd_link li {
+    padding: 7px 0;
+    border-bottom: 1px dotted #7f7f7f;
+}
+
+.sd_link li a {
+    width: 260px;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sd_link li a:hover {
+    color: #690;
+}
+
+/*今日热帖*/
+.sd_fan_posts {
+}
+
+.sd_fan_posts .num {
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    color: #aaa;
+    text-align: center;
+    display: inline-block;
+    background-color: #e6e6e6;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.sd_fan_posts .cor1 {
+    color: #fff;
+    background-color: #ff9b9b;
+}
+
+.sd_fan_posts .cor2 {
+    color: #fff;
+    background-color: #88c7ef;
+}
+
+.sd_fan_posts .cor3 {
+    color: #fff;
+    background-color: #8dcf6f;
+}
+
+.sd_fan_pic {
+    position: relative;
+    width: 260px;
+    height: 150px;
+    margin-top: 20px;
+    display: block;
+}
+
+.sd_fan_pic .title {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 240px;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #690;
+    background: rgba(102, 153, 0, 0.9);
+    _display: block;
+}
+
+.sd_fan_pic:hover .title {
+    display: block;
+}
+
+/*--帖子栏目
+-------------------------------------*/
+.fan_subnav {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e7e7e7;
+    overflow: hidden;
+}
+
+.fan_subnav ul {
+    margin-left: -5px;
+}
+
+.fan_subnav li {
+    color: #ccc;
+    float: left;
+}
+
+.fan_subnav li a {
+    padding: 2px 5px;
+    margin: 0 5px;
+    color: #999;
+}
+
+.fan_subnav li a:hover,
+.fan_subnav .cur {
+    color: #fff;
+    background-color: #8dbc6b;
+}
+
+.fan_sel_all {
+    padding: 5px 10px 0;
+}
+
+.fan_manager_edit_bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 658px;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fffcf1;
+    border: 1px solid #ffe4c9;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.fan_checkbox {
+    margin-right: 3px;
+    vertical-align: -2px;
+    *vertical-align: -3px;
+}
+
+.fan_manager_edit_bar .select {
+    _padding-top: 10px;
+}
+
+.fan_manager_edit_bar .operate {
+    line-height: 34px;
+}
+
+.fan_manager_edit_bar .operate a {
+    margin: 0 5px;
+    display: none;
+}
+
+.fan_manager_edit_bar .num {
+    color: #f76812;
+}
+
+/*贴子详细信息*/
+.fan_details {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.fan_details_title {
+    padding: 20px;
+    line-height: 26px;
+}
+
+.fan_details_title .ico_ct_release, .fan_details_editor .ico_ct_release {
+    padding: 0;
+    line-height: 26px;
+}
+
+.fan_details .list, .fan_details_topic {
+    border-top: 1px solid #e7e7e7;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.fan-details-list-tip {
+    text-align: center;
+    padding: 100px;
+}
+
+.fan_details_title .select_area {
+    width: 96px;
+    margin-left: 10px;
+}
+
+.fan_details_title .select_area_down {
+    width: 94px;
+    left: 0;
+}
+
+.fan_details_title .select_area_down li {
+    margin-right: -1px;
+    border-right: 1px solid #eee;
+    text-align: center;
+    display: none;
+}
+
+.select_area_down li span {
+    padding: 0 10px;
+    line-height: 26px;
+}
+
+.fan_details_title .select_area_down li a {
+    width: auto;
+    padding: 0 10px;
+    display: block;
+}
+
+.fan_details_title .select_area_down li a:hover {
+    border: none;
+    background-color: #f0f6e5;
+}
+
+.view_voter_select_area_down li a {
+    width: auto;
+}
+.view_voter_select_area_down li a span {
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    width: 418px;
+    display: block;
+}
+
+.fan_details_title .topic-type-and-model {
+    margin-top: 6px;
+    display: none;
+}
+
+.fan_details_title h3 {
+    max-width: 480px;
+    _width: 480px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.fan_details_title h3:hover {
+    text-decoration: none;
+}
+
+.fan_details_l {
+    width: 100px;
+    padding: 20px 35px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.fan_details_l .name {
+    width: 100px;
+    padding: 5px 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
+
+.fan_details_r {
+    width: 789px;
+    padding: 20px 20px 30px;
+    min-height: 220px;
+    border-left: 1px solid #e7e7e7;
+}
+
+.fan_details_r .floor {
+    text-align: right;
+    height: 20px;
+}
+
+.fan_details_r .info, .fan_details_r .shield_info {
+    min-height: 300px;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: none;
+}
+
+.fan_details_r .shield_info {
+    color: #F00;
+    font-weight: bold;
+}
+
+.fan_details_r .text {
+    line-height: 24px;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.fan_details_r .text a {
+    color: #690;
+}
+
+.fan_details_r .text a:hover {
+    color: #390;
+}
+
+/*投票话题*/
+
+.fan_vote {
+    overflow: hidden;
+    _zoom: 1;
+    margin-top: 20px;
+}
+
+.fan_vote_con li {
+    padding-top: 15px;
+    width: 500px;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.fan_vote_con .title {
+    height: 24px;
+}
+
+.fan_vote .bar {
+    width: 328px;
+    height: 10px;
+    margin: 6px 5px 0;
+    overflow: hidden;
+    display: inline-block;
+    background: url("/v2/images/app/fan/ico_fan.png") no-repeat 0 -133px;
+}
+
+.fan_vote .bar span {
+    float: left;
+    height: 10px;
+    overflow: hidden;
+    display: inline-block;
+    background: url("/v2/images/app/fan/ico_fan.png") no-repeat 0 -145px;
+}
+
+.fan_vote .radio,
+.fan_vote .radio_checked {
+    margin: 3px 0 0 0;
+}
+
+.fan_vote .ico_not_release,
+.fan_vote .ico_ct_release {
+    margin: 0 auto;
+    display: block;
+    clear: both;
+}
+
+.ico_v_vote {
+    width: 19px;
+    height: 12px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url("/v2/images/app/vchart/ico_vchart.png") no-repeat -150px -24px;
+}
+.fan-vote-items-submit-area {
+    height: 26px;
+    margin: 20px 0 0 0;
+    width: 360px;
+}
+.fan-vote-items-submit-area .fan-loading {
+    margin: 5px auto;
+}
+.fan_vote .fan-vote-items-submit {
+    line-height: 26px;
+    overflow: hidden;
+}
+
+/* End 投票话题*/
+
+.fan_details_r .quote {
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px #e7e7e7 dashed;
+}
+
+.fan_details_r .oper {
+    text-align: right;
+    padding: 50px 0 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px #e7e7e7 dashed;
+}
+
+.fan_details_r .oper a {
+    margin-left: 10px;
+}
+
+.fan_details_r .oper input {
+    vertical-align: middle;
+}
+
+.fan_details_editor {
+    margin: 30px;
+    padding: 20px 0;
+    border-top: 1px solid #6fa736;
+    border-bottom: 1px solid #6fa736;
+    background-color: #f4f4f4;
+    display: none;
+}
+
+.fan_details_editor .editor,
+.fan_details_editor .release {
+    width: 800px;
+    margin: 20px auto 0;
+}
+
+.fan_details_editor .release {
+    height: 27px;
+}
+
+.fan_details_editor .release .ico_ct_release {
+    margin-right: 10px;
+}
+
+.fan_details_editor .release-loading {
+    display: none;
+}
+
+.fan_details_editor .release-loading .fan-loading {
+    display: block;
+    margin: 5px 0 0 14px;
+}
+
+.fan_details_editor input {
+    vertical-align: middle;
+}
+
+.fan_details_editor .ico_ct_release,
+.fan_details_editor .ico_not_release {
+    margin-left: 0;
+}
+
+/*End 话题详细页*/
+
+/*--  饭团管理
+------------------------------------------------------*/
+.fan_manag {
+}
+
+.fan_menu {
+    margin: 20px 0 0 20px;
+    width: 170px;
+    border-style: solid;
+    border-color: #d7d7d7;
+    border-width: 3px 1px 1px 1px;
+    overflow: hidden;
+    _display: inline;
+}
+
+.fan_menu li {
+    margin-top: -1px;
+    border-top: 1px #e5e5e5 dashed;
+}
+
+.fan_menu a {
+    height: 39px;
+    line-height: 38px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    display: block;
+}
+
+.fan_menu a:hover {
+    color: #690;
+    background-color: #ebf2dc;
+}
+
+/*帖子管理右列 列表*/
+.fan_manag_right {
+    width: 760px;
+    color: #666;
+    margin: 20px 20px 0 0;
+    _display: inline;
+}
+
+.fan_add_btn {
+    margin: 10px 10px 0 0;
+    width: 142px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #690;
+    border-bottom: 1px solid #360;
+    display: block;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.fan_add_btn:hover {
+    color: #fff;
+}
+
+.fan_manag_inquiry {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e7e7e7;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.fan_manag_inquiry .g_select {
+    width: 96px;
+}
+
+.fan_manag_inquiry .label {
+    height: 24px;
+    line-height: 24px;
+}
+
+.fan_manag_inquiry .mr {
+    margin-left: 60px;
+}
+
+.fan_manag_inquiry .input_text {
+    height: 24px;
+    line-height: 24px;
+}
+
+/*分类信息列表*/
+.fan_manag_list .title {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f7f7f7;
+}
+
+.fan_manag_list .list {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+
+.fan_manag_list .list:hover {
+    background-color: #eef3e9;
+}
+
+.fan_manag_list .bg_cor {
+    background-color: #f7f8f6;
+}
+
+.fan_manag_list .select {
+    width: 60px;
+    padding-left: 10px;
+}
+
+.fan_manag_posts .name {
+    width: 60px;
+    padding-right: 10px;
+}
+
+.fan_manag_posts .user {
+    width: 290px;
+    padding-right: 10px;
+}
+
+.fan_manag_posts .time {
+    width: 120px;
+    padding-right: 10px;
+}
+
+.fan_manag_posts .last {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.fan_manag_posts .lastime {
+    width: 80px;
+}
+
+.fan_manag_sort .name {
+    width: 130px;
+    padding-right: 10px;
+}
+
+.fan_manag_sort .user {
+    width: 140px;
+    padding-right: 10px;
+}
+
+.fan_manag_sort .time {
+    width: 130px;
+    padding-right: 10px;
+}
+
+.fan_manag_sort .last {
+    width: 140px;
+    padding-right: 10px;
+}
+
+.fan_manag_sort .lastime {
+    width: 110px;
+}
+
+.fan_manag_sort .fan_manag_oper {
+    width: 400px;
+}
+
+.fan_manag_oper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    width: 700px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border: 1px solid #ffe4c9;
+    background-color: #fffcf1;
+}
+
+.fan_manag_oper .oper {
+    margin: 0 5px;
+}
+
+/* 饭团MV管理列表*/
+.fan_mvlist li {
+    position: relative;
+}
+
+.fan_mvlist .mv_list_cur {
+    z-index: 12;
+    display: block;
+}
+
+.fan_mvlist .lineh {
+    line-height: 34px;
+}
+
+.fan_mvlist .select_area {
+    width: 94px;
+    margin: 7px 15px 0 5px;
+}
+
+/*发布话题 弹出层*/
+.popup_release {
+    padding: 20px;
+}
+
+.popup_release .select_area {
+    width: 210px;
+    margin-right: 15px;
+    position: relative;
+    z-index: 99999;
+}
+
+.popup_release .input_text {
+    width: 320px;
+    height: 23px;
+    line-height: 23px;
+}
+
+.popup_release .editor {
+    padding: 10px 2px;
+    clear: both;
+    height: 200px;
+    overflow: hidden;
+}
+
+.popup_release .sharemyhome {
+    line-height: 26px;
+}
+
+.popup_addition {
+    padding: 20px 0;
+    clear: both;
+}
+
+.popup_addition .addition_l {
+    width: 380px;
+    padding-right: 20px;
+    min-height: 120px;
+    border-right: 1px #7f7f7f dashed;
+}
+
+.popup_addition .addition_list_box {
+    margin-top: 10px;
+    max-height: 200px;
+    overflow: auto;
+    _height: 200px;
+}
+
+.popup_addition .addition_list {
+    clear: both;
+    overflow: hidden;
+}
+
+.popup_addition .ico_close {
+    position: static;
+    margin: 2px 0 0 10px;
+}
+
+.popup_addition .addition_list li {
+    padding-bottom: 10px;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.popup_addition .addition_r {
+    padding-left: 20px;
+    color: #999;
+}
+
+.popup_addition .addition_r  .input_text {
+    width: 30px;
+    margin: 0 2px;
+}
+
+.popup_release .toolkit {
+    clear: both;
+}
+
+.popup_release .com_area {
+    width: 96.2%;
+    margin: 5px 0 10px;
+}
+
+.c_f76812 {
+    color: #f76812;
+}
+
+.popup_oper {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.popup_oper a {
+    color: #666;
+    margin: 0 8px;
+}
+
+.popup_oper a:hover {
+    color: #690;
+}
+
+.popup_setup .label {
+    line-height: 24px;
+    margin-left: 50px;
+}
+
+.popup_setup .ico_ct_release {
+    margin: 20px 0 0 110px;
+}
+
+/*查看投票人  弹出层*/
+.popup_view {
+}
+
+.popup_view .label {
+    line-height: 24px;
+}
+
+.popup_view_list {
+    width: 550px;
+    height: 210px;
+    clear: both;
+    overflow: hidden;
+}
+.page_view_voters_page .page_group {
+    margin: 0;
+}
+.popup_view_list li {
+    float: left;
+    width: 100px;
+    margin: 15px 10px 0 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.topic-detail-share-dialog .v_share_link {
+    width: 210px;
+    float: none;
+    margin: 40px 0 0 120px;
+}
+/*分类帖子  弹出层*/
+.popup_sort {
+    padding: 20px;
+}
+
+.popup_sort .pd_tb {
+    padding: 30px 0;
+}
+
+.popup_sort .label,
+.popup_sort .input_text {
+    height: 24px;
+    line-height: 24px;
+}
+
+.popup_sort .ico_but_group,
+.popup_sort .ico_but_group1 {
+    width: 30px;
+}
+
+/*-- End  弹出层 --*/
+
+/* 帖子回复设置弹出层 */
+.posts_setting_container {
+    position: absolute;
+    width: 234px;
+    height: 114px;
+    z-index: 400;
+    display: block;
+}
+
+.posts-setting-prompt-loading {
+    margin: 7px 10px 0 0;
+}
+
+/*-- ico图标
+--------------------------------------*/
+.ico_fan_name, .ico_fan_comment {
+    background: url("/v2/images/base/ico/ico20_1113.png") no-repeat;
+}
+
+.ico_fan_news,
+.ico_fan_masstop,
+.ico_fan_masstop1,
+.ico_fan_masstop2,
+.ico_fan_masstop3,
+.ico_fan_ann,
+.ico_fan_edit1,
+.ico_fan_edit2,
+.ico_fan_edit_bigHeadImg,
+.ico_fan_publish,
+.ico_publish_release,
+.ico_publish_news,
+.ico_publish_vote {
+    display: inline-block;
+    overflow: hidden;
+    background: url("/v2/images/app/fan/ico_fan.png") no-repeat
+}
+
+.ico_fan_name {
+    margin-right: 20px;
+    padding-left: 15px;
+    background-position: 0 -1600px;
+}
+
+.ico_fan_comment {
+    padding-left: 18px;
+    background-position: 0 -1620px;
+}
+
+.ico_fan_news {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 23px;
+    height: 23px;
+    background-position: -215px 0;
+    overflow: hidden;
+}
+
+.ico_fan_masstop,
+.ico_fan_masstop1,
+.ico_fan_masstop2,
+.ico_fan_masstop3 {
+    width: 50px;
+    height: 67px;
+    line-height: 60px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.ico_fan_masstop {
+    color: #999;
+    background-position: -162px 0;
+}
+
+.ico_fan_masstop1 {
+    color: #fff;
+    background-position: 0 0;
+}
+
+.ico_fan_masstop2 {
+    color: #fff;
+    background-position: -54px 0;
+}
+
+.ico_fan_masstop3 {
+    color: #fff;
+    background-position: -108px 0;
+}
+
+.ico_fan_ann {
+    width: 91px;
+    height: 26px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    background-position: 0 -65px;
+}
+
+.ico_fan_edit1 {
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+    vertical-align: middle;
+    background-position: -218px -23px;
+}
+
+.ico_fan_edit2 {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 18px;
+    height: 18px;
+    background-position: -218px -42px;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.fan-bigHeadImg {
+    position: relative;
+    display: none;
+}
+
+.fan-bigHeadImg a {
+    position: absolute;
+    top: -110px;
+    right: -20px;
+    background: #fbfbfb;
+    border: #cacaca solid 1px;
+    width: 83px;
+    height: 23px;
+    line-height: 23px;
+    border-radius: 3px;
+}
+
+.ico_fan_edit_bigHeadImg {
+    width: 18px;
+    height: 18px;
+    margin: 2px 3px 3px 3px;
+    vertical-align: middle;
+    background-position: -2px -156px;
+    overflow: hidden;
+}
+
+.fan-bigHeadImg a:hover .ico_fan_edit_bigHeadImg {
+    background-position: -218px -42px;
+}
+
+.avatar:hover .ico_fan_edit2 {
+    right: 4px;
+    bottom: 4px;
+}
+
+.ico_fan_publish {
+    width: 141px;
+    height: 36px;
+    text-indent: -9999em;
+    display: block;
+    background-position: 0 -94px;
+}
+
+.ico_publish_release,
+.ico_publish_news,
+.ico_publish_vote {
+    width: 17px;
+    height: 17px;
+    margin: 0 5px 0 10px;
+    vertical-align: middle;
+}
+
+.ico_publish_release {
+    background-position: -246px 0;
+}
+
+.ico_publish_news {
+    background-position: -246px -23px;
+}
+
+.ico_publish_vote {
+    background-position: -246px -45px;
+}
+
+/* add by yuanjianhang */
+.fan-icons {
+    background-image: url("/v2/images/app/fan/ico_fan.png");
+    background-repeat: no-repeat;
+}
+
+.fan-add-icons {
+    background-image: url("/v2/images/app/fan/common/fan-add-icons.png");
+    background-repeat: no-repeat;
+}
+
+.fan-loading {
+    width: 16px;
+    height: 11px;
+    background: url("/v2/images/app/fan/common/loading.gif") no-repeat;
+    display: none;
+}
+
+.fan-image-upload-init {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.fan-image-upload-tip {
+    text-align: center;
+    color: #999;
+    padding: 5px;
+}
+
+.fan-image-area-select {
+    position: relative;
+    display: none;
+}
+
+.fan-image-original, .fan-image-scale {
+    position: absolute;
+}
+
+.fan-image-original {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 22px;
+    left: 70px;
+    overflow: hidden;
+    border: #CCC solid 1px;
+}
+
+.fan-image-original-line {
+    position: absolute;
+    width: 0;
+    height: 150px;
+    top: 22px;
+    left: 240px;
+    overflow: hidden;
+    border-left: #CCC dashed 1px;
+}
+
+.fan-image-scale {
+    width: 66px;
+    height: 66px;
+    top: 104px;
+    left: 260px;
+    overflow: hidden;
+    border: #CCC solid 1px;
+}
+
+.fan-image-area-submit {
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.fan-dialog-image-loading, .fan-dialog-scale-loading {
+    position: absolute;
+    left: 200px;
+    top: 164px;
+}
+
+.fan-dialog-scale-loading {
+    left: 200px;
+    top: 263px;
+}
+
+.fan-dialog-link-input, .fan-dialog-link {
+    background-position: -2px -2px;
+    display: inline-block;
+    overflow: hidden;
+    width: 95px;
+    height: 27px;
+    position: relative;
+    line-height: 27px;
+    font-size: 14px;
+}
+
+.fan-dialog-link-input input {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -10px;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.fan-image-area-select .fan-dialog-link {
+    margin: 35px 0 0 160px;
+    text-align: center;
+}
+
+.fan_posts_list_loading {
+    margin: 150px auto;
+    display: block;
+}
+
+.fan_posts_list_empty {
+    font-size: 14px;
+    text-align: center;
+    padding: 80px 50px 50px;
+}
+
+.topic-icon-type {
+    float: left;
+    margin-top: 2px;
+    width: 35px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.topic-icon-type-news {
+    background-position: -60px -157px;
+}
+
+.topic-icon-type-vote {
+    background-position: -23px -157px;
+}
+
+.topic-icon-property {
+    float: left;
+    margin: 2px 0 0 5px;
+    width: 33px;
+    height: 17px;
+}
+
+.topic-icon-property-top {
+    background-position: -97px -157px;
+}
+
+.topic-icon-property-light {
+    color: #690;
+}
+.topic-icon-property-light:hover {
+    color: #690;
+    text-decoration: underline;
+}
+
+.topic-icon-property-marrow {
+    background-position: -132px -157px;
+}
+
+.fan-details-loading {
+    padding: 200px 0;
+}
+
+.fan-details-loading .fan-loading {
+    display: block;
+    margin: 0 auto;
+}
+
+.fan-details-page {
+    margin: 0 30px;
+}
